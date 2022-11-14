@@ -3,12 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
-    <data>
-        <import type="com.example.viewmodeldemo.MainActivity"/>
-        <variable
-            name="myViewModel"
-            type="com.example.viewmodeldemo.ui.main.MainViewModel" />
-    </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main"
