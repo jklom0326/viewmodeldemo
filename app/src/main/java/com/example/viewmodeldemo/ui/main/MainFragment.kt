@@ -11,7 +11,7 @@ import com.example.viewmodeldemo.databinding.FragmentMainBinding
 
 class MainFragment : Fragment() {
     private lateinit var viewModel: MainViewModel
-    private var _binding: FragmentMainBinding? = null
+    private var binding: FragmentMainBinding? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
