@@ -17,4 +17,3 @@ class MainViewModel : ViewModel() {
         return result
     }
 }
-
