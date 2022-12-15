@@ -12,7 +12,6 @@ class MainViewModel : ViewModel() {
         this.dollartext = value
         result.value = value.toFloat() * usd_to_eu_rate
     }
-
     fun getResult(): MutableLiveData<Float> {
         return result
     }
